@@ -115,6 +115,9 @@ Font Size
 .font-size-14 {
   font-size: 14px;
 }
+.font-size-24 {
+  font-size: 24px;
+}
 
 /*
 ==================================
@@ -167,6 +170,17 @@ BG Color
 }
 
 /* ======================nav bar starts=============================== */
+/* .navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  background: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  left: calc(50% - 8px);
+  color: #fb4c47;
+} */
 .navbar-nav .nav-item .nav-link:hover {
   color: #fb4c47;
 }
@@ -180,6 +194,13 @@ BG Color
   background-color: #fb4c47;
   border: 1px solid #ffffff;
   color: #fff;
+}
+
+/* heros-section */
+.hero-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
 }
 
 /* ========================nav bar end ================================*/
