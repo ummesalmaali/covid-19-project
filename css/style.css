@@ -245,8 +245,7 @@ BG Color
 }
 /* =================covid para start ============ */
 .covid-section {
-  background-image: url(../images/covid-19-element1.png),
-    url(/images/covid-19-elem-2.png);
+  background-image: url(../images/covid-19-element1.png);
   background-position: right bottom;
   background-repeat: no-repeat;
 }
