@@ -166,8 +166,8 @@ Font Color
   color: #035755;
 }
 
-.text-color-97 {
-  color: #979797;
+.text-color-44 {
+  color: #0c6c44;
 }
 
 /*
@@ -269,4 +269,12 @@ BG Color
   color: #fb4c47;
   border: 1px solid #fb4c47;
 }
+
+.background-img img {
+  position: absolute;
+  left: 1300px;
+  bottom: -90px;
+}
+
 /* =================covid para end ============ */
+/* ========================= Contagion section============================*/
