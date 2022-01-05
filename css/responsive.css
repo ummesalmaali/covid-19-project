@@ -1,27 +1,25 @@
 @media (max-width: 1599px) {
-
 }
 
 @media (max-width: 1399px) {
-
-	
-
 }
 
 @media (max-width: 1199px) {
-
-	
-	
 }
 
 @media (max-width: 767px) {
-
-	
-
 }
 
 @media (max-width: 575px) {
-
-	
-
+  .hero-heading h2 {
+    font-size: 40px;
+    text-align: start;
+  }
+  .hero-heading h1 {
+    font-size: 50px;
+    text-align: start;
+  }
+  .hero-heading p {
+    font-size: 25px;
+  }
 }

@@ -278,3 +278,19 @@ BG Color
 
 /* =================covid para end ============ */
 /* ========================= Contagion section============================*/
+/* .contagion-section {
+  background-image: url(../images/covid-19-element1.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+} */
+
+.single-card {
+  max-width: 390px;
+  height: 400px;
+  padding: 20px;
+}
+
+.single-card:hover {
+  border-bottom: 2px solid #fb4c47;
+}
