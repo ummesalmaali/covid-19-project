@@ -294,3 +294,19 @@ BG Color
 .single-card:hover {
   border-bottom: 2px solid #fb4c47;
 }
+/* ==================================should do section============================== */
+.wear-masks span {
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background-color: rgba(250, 86, 82, 0.15);
+  color: #fb4c47;
+}
+.mask-content {
+  max-width: 532px;
+  margin-top: 90px;
+}
+/* ==================================should do section end============================== */
