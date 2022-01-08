@@ -109,6 +109,18 @@ Font Size
 .font-size-35 {
   font-size: 35px;
 }
+.font-size-31 {
+  font-size: 31px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+.font-size-29 {
+  font-size: 29px;
+}
+.font-size-28 {
+  font-size: 28px;
+}
 
 .font-size-27 {
   font-size: 27px;
@@ -310,3 +322,26 @@ BG Color
   margin-top: 90px;
 }
 /* ==================================should do section end============================== */
+/* ==================================map-report  section============================== */
+.report-update {
+  background: linear-gradient(rgba(255, 251, 251, 1), rgba(253, 253, 253, 1));
+  max-width: 504px !important;
+}
+.report-icon span .vertical-line {
+  height: 15px;
+  width: 2px;
+  font-size: 60px;
+}
+
+.report-icon span {
+  padding: 3px;
+  width: 8px;
+  height: 14px;
+  color: rgba(87, 1, 0, 0.1);
+  background-color: #fff;
+}
+.report-icon span:hover {
+  color: #fb4c47;
+}
+
+/* ==================================map-report  section end============================== */
