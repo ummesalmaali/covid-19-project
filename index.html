@@ -387,11 +387,11 @@
             </div>
             <div class="col-lg-5 pt-5">
               <div class="report-update shadow p-5">
-                <div class="main-report-heading d-flex justify-content-around">
+                <div class="main-report-heading d-flex justify-content-between">
                   <div class="report-text">
                     <h2 class="text-color-44 fw-bold">Live Reports</h2>
                   </div>
-                  <div class="report-icon ms-5 d-flex">
+                  <div class="report-icon d-flex">
                     <span><i class="fas fa-chevron-left"></i></span>
                     <span class="vertical-line ms-2">|</span>
 
@@ -399,50 +399,82 @@
                   </div>
                 </div>
                 <!-- flag-country-update-icon -->
-                <div class="flag-country-update-icon">
-                  <div class="flag-usa">
-                    <img class="img-fluid ms-4" src="./images/usa.png" alt="" />
+                <!-- <div class="flag-country-update-icon">
+                  <div class="flag-country d-flex justify-content-between">
+                    <div>
+                      <img
+                        class="img-fluid ms-4"
+                        src="./images/usa.png"
+                        alt=""
+                      />
+                      <span
+                        class="ms-3 me-3 text-color-44 fw-bold font-size-31 mt-2"
+                      >
+                        USA
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        class="count-number ms-5 text-color-44 fw-bold font-size-24 mt-5"
+                        >100,392</span
+                      >
+                      <i class="bi bi-triangle-fill"></i>
+                    </div>
+                  </div> -->
+                  <div class="flag-usa mt-2 d-flex justify-content-between align-items-center">
+                   <div class="d-flex gap-3 align-items-center">
+                      <img
+                      class="img-fluid flex-shrink-0"
+                      src="./images/usa.png"
+                      alt=""
+                    />
                     <span
-                      class="ms-3 me-3 text-color-44 fw-bold font-size-31 mt-2"
+                      class="text-color-44 fw-bold font-size-31"
                     >
                       USA
                     </span>
-                    <span class="ms-5 text-color-44 fw-bold font-size-24 mt-5"
-                      >100,392</span
-                    >
+                   </div>
+
+                    <div class="d-flex justify-content-between align-items-center ">
+                        <span class="ms-5 text-color-44 fw-bold font-size-24 mt-1"
+                        >100,392</span
+                      >
+                      <i class="fas fa-caret-up ms-4 text-color-73 fa-2x"></i>
+                    </div>
                   </div>
-                  <div class="flag-usa mt-2">
-                    <img
-                      class="img-fluid ms-4"
-                      src="./images/italy.png"
-                      alt=""
-                    />
-                    <span
-                      class="ms-3 me-3 text-color-44 fw-bold font-size-31 mt-1"
-                    >
-                      Italy
-                    </span>
-                    <span class="ms-5 text-color-44 fw-bold font-size-24 mt-1"
-                      >86,498</span
-                    >
-                    <i class="bi bi-triangle-fill"></i>
+                  <div class="flag-italy d-flex justify-content-between">
+                    <div class="d-flex gap-3 align-items-center justify-content-between">
+                      <img class="img-fluid" src="./images/italy.png" alt="">
+                      <span class="text-color-44 font-size-31 fw-bold">Italy</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <span class="ms-5 text-color-44 fw-bold font-size-24 mt-1">86,498</span>
+                      <i class="fas fa-caret-up ms-4 text-color-73 fa-2x"></i>
+                    </div>
+                   
                   </div>
 
-                  <div class="flag-usa mt-2">
-                    <img
-                      class="img-fluid ms-4"
-                      src="./images/china.png"
-                      alt=""
-                    />
-                    <span
-                      class="ms-3 me-3 text-color-44 fw-bold font-size-28 mt-1"
-                    >
-                      China
-                    </span>
-                    <span class="ms-5 text-color-44 fw-bold font-size-24 mt-1"
-                      >86,498</span
-                    >
-                    <i class="bi bi-triangle-fill"></i>
+                  <div class="flag-china mt-2 d-flex justify-content-between align-items-center">
+                    <div class="d-flex gap-3 align-items-center">
+                        <img
+                        class="img-fluid flex-shrink-0"
+                        src="./images/china.png"
+                        alt=""
+                      />
+                      <span
+                        class="text-color-44 fw-bold font-size-28 mt-1"
+                      >
+                        China
+                      </span>
+                      
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="text-color-44 fw-bold font-size-24 mt-1"
+                        >86,498</span
+                      >
+                      <i class="fas fa-sort-down ms-4 text-color-44 fa-2x"></i>
+                     
+                    </div>
                   </div>
                   <div class="flag-usa">
                     <img
@@ -490,6 +522,59 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="question-section mt-5 mb-5 pt-5 pb-5">
+        <div class="container">
+          <div class="question">
+            <h2 class="text-color-44 text-center mt-5 fw-bold font-size-64">
+              Have Question in mind? <br />
+              Let us help you
+            </h2>
+          </div>
+          <div
+            class="site-form d-flex justify-content-around align-items-center m-auto rounded-pill mt-5"
+          >
+            <div class="site-input form-floating ms-3 me-5">
+              <input type="text" placeholder="snmonydemo@gmail.com" />
+            </div>
+            <button class="btn send-btn rounded-pill fw-bold font-size-22">
+              Send
+            </button>
+          </div>
+        </div>
+        <div class="container mt-5  pt-5 ">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="footer-item"><div class="site-logo">
+                <img
+                 
+                  src="./images/Logo.png"
+                  alt=""
+                />
+              </div></div>
+            </div>
+            <div class="ms-5 col-lg-6 mt-2">
+              <div
+                class="footer-item d-flex justify-content-around align-items-center"
+              >
+                <span class="text-color-44 font-size-24">Overview</span>
+                <span class="text-color-44 font-size-24 ms-4">Symtomps</span>
+                <span class="text-color-44 font-size-24 ms-4"
+                  >Preventation</span
+                >
+                <span class="text-color-44 font-size-24 ms-4">Treatment</span>
+              </div>
+            </div>
+            <div class="col-lg-3 ms-5 ms-sm-0 ms-lg-5 m-auto ">
+              <div class="social-icon footer-item d-flex justify-content-around align-items-center  ms-sm-0 ">
+                <i class="fab fa-facebook-f  text-color-44"></i><i class="fab fa-youtube  text-color-73"></i><i class="fab fa-vimeo-v text-color-44"></i><i class="fab fa-twitter text-color-44"></i>
+              </div>
+            </div>
+          </div>
+          <div class="copy-right mt-5 text-center font-size-24">
+            <h3 class="text-color-44">2020 @ All rights reserved by pixelspark.co</h3>
           </div>
         </div>
       </section>

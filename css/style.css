@@ -102,6 +102,9 @@ hr {
 Font Size
 ==================================
 */
+.font-size-64 {
+  font-size: 64px;
+}
 .font-size-55 {
   font-size: 55px;
 }
@@ -154,6 +157,9 @@ Font Size
   font-size: 14px;
 }
 .font-size-24 {
+  font-size: 24px;
+}
+.font-size-22 {
   font-size: 24px;
 }
 
@@ -323,6 +329,9 @@ BG Color
 }
 /* ==================================should do section end============================== */
 /* ==================================map-report  section============================== */
+.map-report-section {
+  background: linear-gradient(rgba(255, 241, 241, 0.5), rgba(255, 241, 241, 0));
+}
 .report-update {
   background: linear-gradient(rgba(255, 251, 251, 1), rgba(253, 253, 253, 1));
   max-width: 504px !important;
@@ -344,4 +353,39 @@ BG Color
   color: #fb4c47;
 }
 
+.count-number {
+  max-width: 80px;
+}
 /* ==================================map-report  section end============================== */
+/* question section */
+.question-section {
+  background: linear-gradient(rgba(255, 241, 241, 0.5), rgba(255, 241, 241, 0));
+}
+.site-form {
+  width: 700px;
+  height: 114px;
+  box-shadow: 0px 8px 80px 0px rgba(0, 0, 0, 0.06);
+
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 1);
+}
+.site-form .send-btn {
+  background-color: #fb4c47;
+  color: #fff;
+  width: 250px;
+  height: 78px;
+  margin-left: 130px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-item {
+  margin-top: 100px;
+}
+.social-icon {
+  margin-left: 500px;
+}
+.social-icon i {
+  font-size: 22px;
+}
