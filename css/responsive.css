@@ -5,12 +5,13 @@
 }
 
 @media (max-width: 1199px) {
+  .question-section h2 {
+    font-size: 35px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {
-}
-
-@media (max-width: 576px) {
   .hero-heading h2 {
     font-size: 30px;
     text-align: start;
@@ -24,5 +25,84 @@
   }
   .hero-section .hero-content .help-btn {
     margin-right: 200px;
+  }
+  .question-section h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .site-form {
+    max-width: 500px;
+    height: 70px;
+  }
+  .site-form .send-btn {
+    width: 90px;
+    height: 40px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer-item {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-item span {
+    font-size: 18px;
+  }
+  .copy-right {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .copy-right h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-heading h2 {
+    font-size: 30px;
+    text-align: start;
+  }
+  .hero-heading h1 {
+    font-size: 40px;
+    text-align: start;
+  }
+  .hero-heading p {
+    font-size: 22px;
+  }
+  .hero-section .hero-content .help-btn {
+    margin-right: 200px;
+  }
+  .question-section h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .site-form {
+    max-width: 450px;
+    height: 60px;
+  }
+  .site-form .send-btn {
+    width: 80px;
+    height: 35px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footer-item {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .footer-item span {
+    font-size: 18px;
+  }
+  .copy-right {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .copy-right h3 {
+    font-size: 20px;
   }
 }
