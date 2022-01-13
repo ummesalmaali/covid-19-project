@@ -349,7 +349,7 @@ BG Color
   color: rgba(87, 1, 0, 0.1);
   background-color: #fff;
 }
-.report-icon span:hover {
+.report-icon i:hover {
   color: #fb4c47;
 }
 

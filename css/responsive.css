@@ -10,7 +10,7 @@
 @media (max-width: 767px) {
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .hero-heading h2 {
     font-size: 30px;
     text-align: start;
@@ -20,6 +20,9 @@
     text-align: start;
   }
   .hero-heading p {
-    font-size: 20px;
+    font-size: 22px;
+  }
+  .hero-section .hero-content .help-btn {
+    margin-right: 200px;
   }
 }
